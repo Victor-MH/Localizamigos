@@ -29,7 +29,7 @@ class AmigosActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_amigos)
 
-        Log.i("recycler", "${usuarios.size}")
+        //Log.i("recycler", "${usuarios.size}")
 
         todos()
     }
